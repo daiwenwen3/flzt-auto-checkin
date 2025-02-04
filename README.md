@@ -17,7 +17,7 @@
 
 3. 修改 `.github/workflows` 定时策略
 
-   参考 GitHub Actions 文档 [CRON](https://docs.github.com/cn/actions/reference/events-that-trigger-workflows#scheduled-events)
+   参考 GitHub Actions 文档 [CRON](https://docs.github.com/zh/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule)
 
     ```yml
     schedule:
