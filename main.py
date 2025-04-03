@@ -68,7 +68,7 @@ def convert_traffic(url, token, traffic):
 def send_msg(key, title, content):
     if key:
         payload = {'title': title, 'desp': content}
-        requests.post(f'https://sctapi.ftqq.com/{key}.send', data=payload)
+        requests.post(f'https://1614.push.ft07.com/send/{key}.send', data=payload)
 
 
 def main():
